@@ -1,0 +1,1668 @@
+Enter trial time for iterative version (less than 817): 
+Enter trial time for recursive version (less than 20): 
+
+Iterative Trial Runs: 1
+Recursive Trial Runs: 1
+
+X: ACCGTCTTAGCGATCAACACATTTAACAACGCGCCGCACCCCCCGTCAAACGAGCTTTTGGGCTCTTGTCCTTTTACAAGCTTCACGACGCATACAGCCTTGATCAACGGTTTGATCTGTCTCCCTTCAGCTGGCTTTAAAGGACATACATATGAAGGCCTTAATAAGGTCCGGGAACTCCACATATTCGGTACTGGGCAAACCCCATGAACCACCTCAACATGAAGAGTCCGAGGACTCTCACGATCCACCAATGCAGATCGGAACTGTGCGATCGCGTAATGAGCCGAGTACTTGGTTTGTGTTTAGGTTATGGGGGCCGGGAGCCGGTTCAATATAAGGAAGTAGTTGCAGATTAGTTGTTGCGAACGGTCATAAATTTGATGGGTAAACGTGAACTTAACAAACCGTGATAGCTAATCCTATGCATCCCTTACGTGGATCGACTCGAGTACCCAGGTGAACCGACTACTTGATAACCGGAAATCGCGGTATAAAAGCGCTCACGGTCAGGAGATATACCTCCAAGCAGTAGTCTTTCTGAGCCTAGAGTAGTAAATTACAGGGACGATGTCTTTTACCGAGGCAACATTTTATTGAGAATCACATGAGGCACAGGTAAAGGCGACATCACGATCGAGATCAACCCCTACTTGTTCAAAACATTGAGAACCAGCTCTGTTTTGGAACCTAGAAAGATAACGCATCCGCTTGATATTCCACGGCTTGTCCCTCTTGTGCGGTCCATCTATCGGAGTTTCCTCCGATACGACCCGCAATGTTTCCAGGCGTACGGTACTTTATGAATACACTCGCGCTGTAACCTGTTATGTGAAACACACACGACAGAGCTTCGCGTGGGCCCAGCGACCCGGTAATACTACATCACCGCACACGACCTCGAGCAGTCTTTGCCGGCGTCCGTAAGTAGTCTAAAGTTGTGTTGATGCTTGGGGTTAAAGCTAAATCGTCCGCAGAATACGACTCTCATCCCAAT
+
+Y: ACCCGCACGCGCTTTGGTCTAGATTCTAGCTCCAACTTGCCTGCTAGATACTCTGTTAAAAGATGGTTTTACAACCCCCTCCTCTGTCCCTGGGGTATTATATAATACGTCGGATAGTCAGGTACAAATACAAGTGGGTGGGAATACTTTTCCTCGGATCCTAGACCACGGATTACTGCGTGGTTGACAAGAGTCGGCCCGGAGGGAAACGTGAAGGTTAGTGCAATTAAAGTCTCTAATGTGAAGCCTCCGCGAAGCGAGGAGTTTCTGAGATCGAGTACTATTTAGAGTTCGAAATCACGGCTTAACCTCACTGCCACGCATAACTTGCCGGCAATCCAGTTTTGCAACGATACTTAATTTGTGCAGCTCATCTTTGCTGTCCAGAAATAGAGCTAGTCGATCTCATCTTGCGGGTAGCCAGAAGTCCTACCGTCTCCTCCATGTAGCTTAAAAATTTCGGTGAGGATCAAAAATGATAAACGTGACAGGTAAGCTCCTACGTCTATCCTATGACCCCCGCGGCAGAATAGGTTGGTAGTGTTAGTGCGTGAGCTGGTAGAATAGAGCACACTTAGGGAAACGGGAACCGTTATGTAGGGCTGCGACACACAAAAAAGTGTTCGTTGGTAAGCTGCCTCTCCACTAAACAGGATTTCTCTGGATGATCCCATCGAAGCAAGTTACGCACCACGCCGAGGCGGACCCTGGTACTAGCTGCCCCCCCCTTTATGGGGCGCTCGTACATCAAGATGATCGCGGACTCAACCTGATTACGAGTTGTCCAAGTAGTCCAGGGTAAGAGAAACTGGAGAGA
+
+m: 997
+n: 817
+
+LCS length using iterative method with 2D Array: 573
+LCS length using iterative method without 2D Array: 573
+
+Iterative LCS Function with 2D array length is correct!
+Iterative LCS Function without 2D array length is correct!
+
+Backtrack/LCS String: ACCGCAGCGCCAATTTACAACGCCGCACCGTAAAAGTGGTTTTACAACCCCCTCCTTGTCCGGTTTATTTCTCTAGTCAGGTACAAAACAATGGTGGGAATACTTTTCTGGACCTAACCACGGATCCGGGTTGACAAGAGTCGGCCCGGAGGGAACGTGAGGTTAGTCAATTAAAGTTCAATGTGTGCGAACGGATTTTGAGGGTACTATTAACAAACCGGCTAACCTATGCCCCTACTTGCCGGCCCAGTGAACGATACTTAATTTGCGCTCACGGTCAGAAATAGAGTAGTCTTTCTGCGGTAGAAATTACCGTCTTCCAGGCAAATTTTGAGATCAATGAGGACAGGTAAGCTCACGTCATCAACCCCCGCAAAATTGGAGTGTTTGGACTGAGATAAGCACCTTGAAACGGGCCTTTGTGGGTCCACACAGTTTCTGTAAGCTGTTCCACTACGGATTTTGATATCCCTGAAGAGTACCACCACGCCGGGCGGACCCGGTACTACTGCCCCCCCCTTTGGGCGCCGTAATCAAGTGATCGGGAAACTAAATGTCCGCAGAAAGACTAAA
+
+Iterative Test. Loop #: 1
+LCS with strings of length i= 1 is: 1
+Recursive Test. Loop #: 1
+LCS with strings of length j= 1 is: 1
+
+Iterative Test. Loop #: 1 of 800
+LCS with strings of length i= 1 is: 1
+Iterative Test. Loop #: 2 of 800
+LCS with strings of length i= 2 is: 2
+Iterative Test. Loop #: 3 of 800
+LCS with strings of length i= 3 is: 3
+Iterative Test. Loop #: 4 of 800
+LCS with strings of length i= 4 is: 3
+Iterative Test. Loop #: 5 of 800
+LCS with strings of length i= 5 is: 4
+Iterative Test. Loop #: 6 of 800
+LCS with strings of length i= 6 is: 5
+Iterative Test. Loop #: 7 of 800
+LCS with strings of length i= 7 is: 5
+Iterative Test. Loop #: 8 of 800
+LCS with strings of length i= 8 is: 5
+Iterative Test. Loop #: 9 of 800
+LCS with strings of length i= 9 is: 6
+Iterative Test. Loop #: 10 of 800
+LCS with strings of length i= 10 is: 7
+Iterative Test. Loop #: 11 of 800
+LCS with strings of length i= 11 is: 8
+Iterative Test. Loop #: 12 of 800
+LCS with strings of length i= 12 is: 9
+Iterative Test. Loop #: 13 of 800
+LCS with strings of length i= 13 is: 9
+Iterative Test. Loop #: 14 of 800
+LCS with strings of length i= 14 is: 10
+Iterative Test. Loop #: 15 of 800
+LCS with strings of length i= 15 is: 10
+Iterative Test. Loop #: 16 of 800
+LCS with strings of length i= 16 is: 10
+Iterative Test. Loop #: 17 of 800
+LCS with strings of length i= 17 is: 10
+Iterative Test. Loop #: 18 of 800
+LCS with strings of length i= 18 is: 10
+Iterative Test. Loop #: 19 of 800
+LCS with strings of length i= 19 is: 11
+Iterative Test. Loop #: 20 of 800
+LCS with strings of length i= 20 is: 11
+Iterative Test. Loop #: 21 of 800
+LCS with strings of length i= 21 is: 12
+Iterative Test. Loop #: 22 of 800
+LCS with strings of length i= 22 is: 12
+Iterative Test. Loop #: 23 of 800
+LCS with strings of length i= 23 is: 13
+Iterative Test. Loop #: 24 of 800
+LCS with strings of length i= 24 is: 14
+Iterative Test. Loop #: 25 of 800
+LCS with strings of length i= 25 is: 15
+Iterative Test. Loop #: 26 of 800
+LCS with strings of length i= 26 is: 15
+Iterative Test. Loop #: 27 of 800
+LCS with strings of length i= 27 is: 16
+Iterative Test. Loop #: 28 of 800
+LCS with strings of length i= 28 is: 17
+Iterative Test. Loop #: 29 of 800
+LCS with strings of length i= 29 is: 17
+Iterative Test. Loop #: 30 of 800
+LCS with strings of length i= 30 is: 18
+Iterative Test. Loop #: 31 of 800
+LCS with strings of length i= 31 is: 18
+Iterative Test. Loop #: 32 of 800
+LCS with strings of length i= 32 is: 19
+Iterative Test. Loop #: 33 of 800
+LCS with strings of length i= 33 is: 20
+Iterative Test. Loop #: 34 of 800
+LCS with strings of length i= 34 is: 20
+Iterative Test. Loop #: 35 of 800
+LCS with strings of length i= 35 is: 21
+Iterative Test. Loop #: 36 of 800
+LCS with strings of length i= 36 is: 21
+Iterative Test. Loop #: 37 of 800
+LCS with strings of length i= 37 is: 22
+Iterative Test. Loop #: 38 of 800
+LCS with strings of length i= 38 is: 22
+Iterative Test. Loop #: 39 of 800
+LCS with strings of length i= 39 is: 23
+Iterative Test. Loop #: 40 of 800
+LCS with strings of length i= 40 is: 24
+Iterative Test. Loop #: 41 of 800
+LCS with strings of length i= 41 is: 25
+Iterative Test. Loop #: 42 of 800
+LCS with strings of length i= 42 is: 25
+Iterative Test. Loop #: 43 of 800
+LCS with strings of length i= 43 is: 25
+Iterative Test. Loop #: 44 of 800
+LCS with strings of length i= 44 is: 26
+Iterative Test. Loop #: 45 of 800
+LCS with strings of length i= 45 is: 26
+Iterative Test. Loop #: 46 of 800
+LCS with strings of length i= 46 is: 27
+Iterative Test. Loop #: 47 of 800
+LCS with strings of length i= 47 is: 28
+Iterative Test. Loop #: 48 of 800
+LCS with strings of length i= 48 is: 29
+Iterative Test. Loop #: 49 of 800
+LCS with strings of length i= 49 is: 29
+Iterative Test. Loop #: 50 of 800
+LCS with strings of length i= 50 is: 30
+Iterative Test. Loop #: 51 of 800
+LCS with strings of length i= 51 is: 31
+Iterative Test. Loop #: 52 of 800
+LCS with strings of length i= 52 is: 31
+Iterative Test. Loop #: 53 of 800
+LCS with strings of length i= 53 is: 31
+Iterative Test. Loop #: 54 of 800
+LCS with strings of length i= 54 is: 31
+Iterative Test. Loop #: 55 of 800
+LCS with strings of length i= 55 is: 32
+Iterative Test. Loop #: 56 of 800
+LCS with strings of length i= 56 is: 33
+Iterative Test. Loop #: 57 of 800
+LCS with strings of length i= 57 is: 34
+Iterative Test. Loop #: 58 of 800
+LCS with strings of length i= 58 is: 35
+Iterative Test. Loop #: 59 of 800
+LCS with strings of length i= 59 is: 35
+Iterative Test. Loop #: 60 of 800
+LCS with strings of length i= 60 is: 35
+Iterative Test. Loop #: 61 of 800
+LCS with strings of length i= 61 is: 35
+Iterative Test. Loop #: 62 of 800
+LCS with strings of length i= 62 is: 36
+Iterative Test. Loop #: 63 of 800
+LCS with strings of length i= 63 is: 36
+Iterative Test. Loop #: 64 of 800
+LCS with strings of length i= 64 is: 37
+Iterative Test. Loop #: 65 of 800
+LCS with strings of length i= 65 is: 38
+Iterative Test. Loop #: 66 of 800
+LCS with strings of length i= 66 is: 39
+Iterative Test. Loop #: 67 of 800
+LCS with strings of length i= 67 is: 40
+Iterative Test. Loop #: 68 of 800
+LCS with strings of length i= 68 is: 41
+Iterative Test. Loop #: 69 of 800
+LCS with strings of length i= 69 is: 42
+Iterative Test. Loop #: 70 of 800
+LCS with strings of length i= 70 is: 43
+Iterative Test. Loop #: 71 of 800
+LCS with strings of length i= 71 is: 43
+Iterative Test. Loop #: 72 of 800
+LCS with strings of length i= 72 is: 44
+Iterative Test. Loop #: 73 of 800
+LCS with strings of length i= 73 is: 44
+Iterative Test. Loop #: 74 of 800
+LCS with strings of length i= 74 is: 44
+Iterative Test. Loop #: 75 of 800
+LCS with strings of length i= 75 is: 45
+Iterative Test. Loop #: 76 of 800
+LCS with strings of length i= 76 is: 45
+Iterative Test. Loop #: 77 of 800
+LCS with strings of length i= 77 is: 46
+Iterative Test. Loop #: 78 of 800
+LCS with strings of length i= 78 is: 46
+Iterative Test. Loop #: 79 of 800
+LCS with strings of length i= 79 is: 47
+Iterative Test. Loop #: 80 of 800
+LCS with strings of length i= 80 is: 47
+Iterative Test. Loop #: 81 of 800
+LCS with strings of length i= 81 is: 48
+Iterative Test. Loop #: 82 of 800
+LCS with strings of length i= 82 is: 49
+Iterative Test. Loop #: 83 of 800
+LCS with strings of length i= 83 is: 50
+Iterative Test. Loop #: 84 of 800
+LCS with strings of length i= 84 is: 51
+Iterative Test. Loop #: 85 of 800
+LCS with strings of length i= 85 is: 51
+Iterative Test. Loop #: 86 of 800
+LCS with strings of length i= 86 is: 51
+Iterative Test. Loop #: 87 of 800
+LCS with strings of length i= 87 is: 52
+Iterative Test. Loop #: 88 of 800
+LCS with strings of length i= 88 is: 52
+Iterative Test. Loop #: 89 of 800
+LCS with strings of length i= 89 is: 53
+Iterative Test. Loop #: 90 of 800
+LCS with strings of length i= 90 is: 53
+Iterative Test. Loop #: 91 of 800
+LCS with strings of length i= 91 is: 54
+Iterative Test. Loop #: 92 of 800
+LCS with strings of length i= 92 is: 54
+Iterative Test. Loop #: 93 of 800
+LCS with strings of length i= 93 is: 55
+Iterative Test. Loop #: 94 of 800
+LCS with strings of length i= 94 is: 55
+Iterative Test. Loop #: 95 of 800
+LCS with strings of length i= 95 is: 55
+Iterative Test. Loop #: 96 of 800
+LCS with strings of length i= 96 is: 55
+Iterative Test. Loop #: 97 of 800
+LCS with strings of length i= 97 is: 56
+Iterative Test. Loop #: 98 of 800
+LCS with strings of length i= 98 is: 56
+Iterative Test. Loop #: 99 of 800
+LCS with strings of length i= 99 is: 57
+Iterative Test. Loop #: 100 of 800
+LCS with strings of length i= 100 is: 58
+Iterative Test. Loop #: 101 of 800
+LCS with strings of length i= 101 is: 59
+Iterative Test. Loop #: 102 of 800
+LCS with strings of length i= 102 is: 59
+Iterative Test. Loop #: 103 of 800
+LCS with strings of length i= 103 is: 60
+Iterative Test. Loop #: 104 of 800
+LCS with strings of length i= 104 is: 61
+Iterative Test. Loop #: 105 of 800
+LCS with strings of length i= 105 is: 61
+Iterative Test. Loop #: 106 of 800
+LCS with strings of length i= 106 is: 62
+Iterative Test. Loop #: 107 of 800
+LCS with strings of length i= 107 is: 63
+Iterative Test. Loop #: 108 of 800
+LCS with strings of length i= 108 is: 64
+Iterative Test. Loop #: 109 of 800
+LCS with strings of length i= 109 is: 65
+Iterative Test. Loop #: 110 of 800
+LCS with strings of length i= 110 is: 65
+Iterative Test. Loop #: 111 of 800
+LCS with strings of length i= 111 is: 66
+Iterative Test. Loop #: 112 of 800
+LCS with strings of length i= 112 is: 66
+Iterative Test. Loop #: 113 of 800
+LCS with strings of length i= 113 is: 67
+Iterative Test. Loop #: 114 of 800
+LCS with strings of length i= 114 is: 67
+Iterative Test. Loop #: 115 of 800
+LCS with strings of length i= 115 is: 68
+Iterative Test. Loop #: 116 of 800
+LCS with strings of length i= 116 is: 69
+Iterative Test. Loop #: 117 of 800
+LCS with strings of length i= 117 is: 69
+Iterative Test. Loop #: 118 of 800
+LCS with strings of length i= 118 is: 70
+Iterative Test. Loop #: 119 of 800
+LCS with strings of length i= 119 is: 71
+Iterative Test. Loop #: 120 of 800
+LCS with strings of length i= 120 is: 72
+Iterative Test. Loop #: 121 of 800
+LCS with strings of length i= 121 is: 73
+Iterative Test. Loop #: 122 of 800
+LCS with strings of length i= 122 is: 73
+Iterative Test. Loop #: 123 of 800
+LCS with strings of length i= 123 is: 74
+Iterative Test. Loop #: 124 of 800
+LCS with strings of length i= 124 is: 74
+Iterative Test. Loop #: 125 of 800
+LCS with strings of length i= 125 is: 75
+Iterative Test. Loop #: 126 of 800
+LCS with strings of length i= 126 is: 75
+Iterative Test. Loop #: 127 of 800
+LCS with strings of length i= 127 is: 75
+Iterative Test. Loop #: 128 of 800
+LCS with strings of length i= 128 is: 76
+Iterative Test. Loop #: 129 of 800
+LCS with strings of length i= 129 is: 77
+Iterative Test. Loop #: 130 of 800
+LCS with strings of length i= 130 is: 78
+Iterative Test. Loop #: 131 of 800
+LCS with strings of length i= 131 is: 79
+Iterative Test. Loop #: 132 of 800
+LCS with strings of length i= 132 is: 80
+Iterative Test. Loop #: 133 of 800
+LCS with strings of length i= 133 is: 80
+Iterative Test. Loop #: 134 of 800
+LCS with strings of length i= 134 is: 81
+Iterative Test. Loop #: 135 of 800
+LCS with strings of length i= 135 is: 81
+Iterative Test. Loop #: 136 of 800
+LCS with strings of length i= 136 is: 82
+Iterative Test. Loop #: 137 of 800
+LCS with strings of length i= 137 is: 82
+Iterative Test. Loop #: 138 of 800
+LCS with strings of length i= 138 is: 82
+Iterative Test. Loop #: 139 of 800
+LCS with strings of length i= 139 is: 83
+Iterative Test. Loop #: 140 of 800
+LCS with strings of length i= 140 is: 83
+Iterative Test. Loop #: 141 of 800
+LCS with strings of length i= 141 is: 84
+Iterative Test. Loop #: 142 of 800
+LCS with strings of length i= 142 is: 85
+Iterative Test. Loop #: 143 of 800
+LCS with strings of length i= 143 is: 86
+Iterative Test. Loop #: 144 of 800
+LCS with strings of length i= 144 is: 87
+Iterative Test. Loop #: 145 of 800
+LCS with strings of length i= 145 is: 87
+Iterative Test. Loop #: 146 of 800
+LCS with strings of length i= 146 is: 88
+Iterative Test. Loop #: 147 of 800
+LCS with strings of length i= 147 is: 89
+Iterative Test. Loop #: 148 of 800
+LCS with strings of length i= 148 is: 90
+Iterative Test. Loop #: 149 of 800
+LCS with strings of length i= 149 is: 91
+Iterative Test. Loop #: 150 of 800
+LCS with strings of length i= 150 is: 91
+Iterative Test. Loop #: 151 of 800
+LCS with strings of length i= 151 is: 92
+Iterative Test. Loop #: 152 of 800
+LCS with strings of length i= 152 is: 92
+Iterative Test. Loop #: 153 of 800
+LCS with strings of length i= 153 is: 93
+Iterative Test. Loop #: 154 of 800
+LCS with strings of length i= 154 is: 93
+Iterative Test. Loop #: 155 of 800
+LCS with strings of length i= 155 is: 93
+Iterative Test. Loop #: 156 of 800
+LCS with strings of length i= 156 is: 94
+Iterative Test. Loop #: 157 of 800
+LCS with strings of length i= 157 is: 95
+Iterative Test. Loop #: 158 of 800
+LCS with strings of length i= 158 is: 95
+Iterative Test. Loop #: 159 of 800
+LCS with strings of length i= 159 is: 95
+Iterative Test. Loop #: 160 of 800
+LCS with strings of length i= 160 is: 96
+Iterative Test. Loop #: 161 of 800
+LCS with strings of length i= 161 is: 97
+Iterative Test. Loop #: 162 of 800
+LCS with strings of length i= 162 is: 98
+Iterative Test. Loop #: 163 of 800
+LCS with strings of length i= 163 is: 99
+Iterative Test. Loop #: 164 of 800
+LCS with strings of length i= 164 is: 99
+Iterative Test. Loop #: 165 of 800
+LCS with strings of length i= 165 is: 100
+Iterative Test. Loop #: 166 of 800
+LCS with strings of length i= 166 is: 100
+Iterative Test. Loop #: 167 of 800
+LCS with strings of length i= 167 is: 101
+Iterative Test. Loop #: 168 of 800
+LCS with strings of length i= 168 is: 102
+Iterative Test. Loop #: 169 of 800
+LCS with strings of length i= 169 is: 102
+Iterative Test. Loop #: 170 of 800
+LCS with strings of length i= 170 is: 103
+Iterative Test. Loop #: 171 of 800
+LCS with strings of length i= 171 is: 104
+Iterative Test. Loop #: 172 of 800
+LCS with strings of length i= 172 is: 104
+Iterative Test. Loop #: 173 of 800
+LCS with strings of length i= 173 is: 105
+Iterative Test. Loop #: 174 of 800
+LCS with strings of length i= 174 is: 105
+Iterative Test. Loop #: 175 of 800
+LCS with strings of length i= 175 is: 106
+Iterative Test. Loop #: 176 of 800
+LCS with strings of length i= 176 is: 107
+Iterative Test. Loop #: 177 of 800
+LCS with strings of length i= 177 is: 108
+Iterative Test. Loop #: 178 of 800
+LCS with strings of length i= 178 is: 109
+Iterative Test. Loop #: 179 of 800
+LCS with strings of length i= 179 is: 110
+Iterative Test. Loop #: 180 of 800
+LCS with strings of length i= 180 is: 111
+Iterative Test. Loop #: 181 of 800
+LCS with strings of length i= 181 is: 111
+Iterative Test. Loop #: 182 of 800
+LCS with strings of length i= 182 is: 111
+Iterative Test. Loop #: 183 of 800
+LCS with strings of length i= 183 is: 111
+Iterative Test. Loop #: 184 of 800
+LCS with strings of length i= 184 is: 112
+Iterative Test. Loop #: 185 of 800
+LCS with strings of length i= 185 is: 113
+Iterative Test. Loop #: 186 of 800
+LCS with strings of length i= 186 is: 113
+Iterative Test. Loop #: 187 of 800
+LCS with strings of length i= 187 is: 114
+Iterative Test. Loop #: 188 of 800
+LCS with strings of length i= 188 is: 115
+Iterative Test. Loop #: 189 of 800
+LCS with strings of length i= 189 is: 116
+Iterative Test. Loop #: 190 of 800
+LCS with strings of length i= 190 is: 116
+Iterative Test. Loop #: 191 of 800
+LCS with strings of length i= 191 is: 117
+Iterative Test. Loop #: 192 of 800
+LCS with strings of length i= 192 is: 118
+Iterative Test. Loop #: 193 of 800
+LCS with strings of length i= 193 is: 119
+Iterative Test. Loop #: 194 of 800
+LCS with strings of length i= 194 is: 120
+Iterative Test. Loop #: 195 of 800
+LCS with strings of length i= 195 is: 121
+Iterative Test. Loop #: 196 of 800
+LCS with strings of length i= 196 is: 122
+Iterative Test. Loop #: 197 of 800
+LCS with strings of length i= 197 is: 123
+Iterative Test. Loop #: 198 of 800
+LCS with strings of length i= 198 is: 123
+Iterative Test. Loop #: 199 of 800
+LCS with strings of length i= 199 is: 124
+Iterative Test. Loop #: 200 of 800
+LCS with strings of length i= 200 is: 124
+Iterative Test. Loop #: 201 of 800
+LCS with strings of length i= 201 is: 124
+Iterative Test. Loop #: 202 of 800
+LCS with strings of length i= 202 is: 124
+Iterative Test. Loop #: 203 of 800
+LCS with strings of length i= 203 is: 125
+Iterative Test. Loop #: 204 of 800
+LCS with strings of length i= 204 is: 126
+Iterative Test. Loop #: 205 of 800
+LCS with strings of length i= 205 is: 127
+Iterative Test. Loop #: 206 of 800
+LCS with strings of length i= 206 is: 128
+Iterative Test. Loop #: 207 of 800
+LCS with strings of length i= 207 is: 129
+Iterative Test. Loop #: 208 of 800
+LCS with strings of length i= 208 is: 129
+Iterative Test. Loop #: 209 of 800
+LCS with strings of length i= 209 is: 130
+Iterative Test. Loop #: 210 of 800
+LCS with strings of length i= 210 is: 131
+Iterative Test. Loop #: 211 of 800
+LCS with strings of length i= 211 is: 132
+Iterative Test. Loop #: 212 of 800
+LCS with strings of length i= 212 is: 133
+Iterative Test. Loop #: 213 of 800
+LCS with strings of length i= 213 is: 133
+Iterative Test. Loop #: 214 of 800
+LCS with strings of length i= 214 is: 134
+Iterative Test. Loop #: 215 of 800
+LCS with strings of length i= 215 is: 134
+Iterative Test. Loop #: 216 of 800
+LCS with strings of length i= 216 is: 134
+Iterative Test. Loop #: 217 of 800
+LCS with strings of length i= 217 is: 135
+Iterative Test. Loop #: 218 of 800
+LCS with strings of length i= 218 is: 135
+Iterative Test. Loop #: 219 of 800
+LCS with strings of length i= 219 is: 136
+Iterative Test. Loop #: 220 of 800
+LCS with strings of length i= 220 is: 137
+Iterative Test. Loop #: 221 of 800
+LCS with strings of length i= 221 is: 137
+Iterative Test. Loop #: 222 of 800
+LCS with strings of length i= 222 is: 138
+Iterative Test. Loop #: 223 of 800
+LCS with strings of length i= 223 is: 139
+Iterative Test. Loop #: 224 of 800
+LCS with strings of length i= 224 is: 140
+Iterative Test. Loop #: 225 of 800
+LCS with strings of length i= 225 is: 141
+Iterative Test. Loop #: 226 of 800
+LCS with strings of length i= 226 is: 142
+Iterative Test. Loop #: 227 of 800
+LCS with strings of length i= 227 is: 142
+Iterative Test. Loop #: 228 of 800
+LCS with strings of length i= 228 is: 142
+Iterative Test. Loop #: 229 of 800
+LCS with strings of length i= 229 is: 143
+Iterative Test. Loop #: 230 of 800
+LCS with strings of length i= 230 is: 143
+Iterative Test. Loop #: 231 of 800
+LCS with strings of length i= 231 is: 143
+Iterative Test. Loop #: 232 of 800
+LCS with strings of length i= 232 is: 144
+Iterative Test. Loop #: 233 of 800
+LCS with strings of length i= 233 is: 145
+Iterative Test. Loop #: 234 of 800
+LCS with strings of length i= 234 is: 146
+Iterative Test. Loop #: 235 of 800
+LCS with strings of length i= 235 is: 146
+Iterative Test. Loop #: 236 of 800
+LCS with strings of length i= 236 is: 147
+Iterative Test. Loop #: 237 of 800
+LCS with strings of length i= 237 is: 147
+Iterative Test. Loop #: 238 of 800
+LCS with strings of length i= 238 is: 148
+Iterative Test. Loop #: 239 of 800
+LCS with strings of length i= 239 is: 149
+Iterative Test. Loop #: 240 of 800
+LCS with strings of length i= 240 is: 150
+Iterative Test. Loop #: 241 of 800
+LCS with strings of length i= 241 is: 150
+Iterative Test. Loop #: 242 of 800
+LCS with strings of length i= 242 is: 151
+Iterative Test. Loop #: 243 of 800
+LCS with strings of length i= 243 is: 151
+Iterative Test. Loop #: 244 of 800
+LCS with strings of length i= 244 is: 152
+Iterative Test. Loop #: 245 of 800
+LCS with strings of length i= 245 is: 152
+Iterative Test. Loop #: 246 of 800
+LCS with strings of length i= 246 is: 153
+Iterative Test. Loop #: 247 of 800
+LCS with strings of length i= 247 is: 153
+Iterative Test. Loop #: 248 of 800
+LCS with strings of length i= 248 is: 154
+Iterative Test. Loop #: 249 of 800
+LCS with strings of length i= 249 is: 155
+Iterative Test. Loop #: 250 of 800
+LCS with strings of length i= 250 is: 155
+Iterative Test. Loop #: 251 of 800
+LCS with strings of length i= 251 is: 156
+Iterative Test. Loop #: 252 of 800
+LCS with strings of length i= 252 is: 157
+Iterative Test. Loop #: 253 of 800
+LCS with strings of length i= 253 is: 158
+Iterative Test. Loop #: 254 of 800
+LCS with strings of length i= 254 is: 158
+Iterative Test. Loop #: 255 of 800
+LCS with strings of length i= 255 is: 159
+Iterative Test. Loop #: 256 of 800
+LCS with strings of length i= 256 is: 160
+Iterative Test. Loop #: 257 of 800
+LCS with strings of length i= 257 is: 161
+Iterative Test. Loop #: 258 of 800
+LCS with strings of length i= 258 is: 162
+Iterative Test. Loop #: 259 of 800
+LCS with strings of length i= 259 is: 163
+Iterative Test. Loop #: 260 of 800
+LCS with strings of length i= 260 is: 164
+Iterative Test. Loop #: 261 of 800
+LCS with strings of length i= 261 is: 164
+Iterative Test. Loop #: 262 of 800
+LCS with strings of length i= 262 is: 164
+Iterative Test. Loop #: 263 of 800
+LCS with strings of length i= 263 is: 165
+Iterative Test. Loop #: 264 of 800
+LCS with strings of length i= 264 is: 166
+Iterative Test. Loop #: 265 of 800
+LCS with strings of length i= 265 is: 167
+Iterative Test. Loop #: 266 of 800
+LCS with strings of length i= 266 is: 167
+Iterative Test. Loop #: 267 of 800
+LCS with strings of length i= 267 is: 167
+Iterative Test. Loop #: 268 of 800
+LCS with strings of length i= 268 is: 168
+Iterative Test. Loop #: 269 of 800
+LCS with strings of length i= 269 is: 169
+Iterative Test. Loop #: 270 of 800
+LCS with strings of length i= 270 is: 170
+Iterative Test. Loop #: 271 of 800
+LCS with strings of length i= 271 is: 170
+Iterative Test. Loop #: 272 of 800
+LCS with strings of length i= 272 is: 171
+Iterative Test. Loop #: 273 of 800
+LCS with strings of length i= 273 is: 171
+Iterative Test. Loop #: 274 of 800
+LCS with strings of length i= 274 is: 172
+Iterative Test. Loop #: 275 of 800
+LCS with strings of length i= 275 is: 173
+Iterative Test. Loop #: 276 of 800
+LCS with strings of length i= 276 is: 174
+Iterative Test. Loop #: 277 of 800
+LCS with strings of length i= 277 is: 175
+Iterative Test. Loop #: 278 of 800
+LCS with strings of length i= 278 is: 175
+Iterative Test. Loop #: 279 of 800
+LCS with strings of length i= 279 is: 176
+Iterative Test. Loop #: 280 of 800
+LCS with strings of length i= 280 is: 177
+Iterative Test. Loop #: 281 of 800
+LCS with strings of length i= 281 is: 178
+Iterative Test. Loop #: 282 of 800
+LCS with strings of length i= 282 is: 178
+Iterative Test. Loop #: 283 of 800
+LCS with strings of length i= 283 is: 179
+Iterative Test. Loop #: 284 of 800
+LCS with strings of length i= 284 is: 180
+Iterative Test. Loop #: 285 of 800
+LCS with strings of length i= 285 is: 180
+Iterative Test. Loop #: 286 of 800
+LCS with strings of length i= 286 is: 180
+Iterative Test. Loop #: 287 of 800
+LCS with strings of length i= 287 is: 181
+Iterative Test. Loop #: 288 of 800
+LCS with strings of length i= 288 is: 182
+Iterative Test. Loop #: 289 of 800
+LCS with strings of length i= 289 is: 182
+Iterative Test. Loop #: 290 of 800
+LCS with strings of length i= 290 is: 183
+Iterative Test. Loop #: 291 of 800
+LCS with strings of length i= 291 is: 184
+Iterative Test. Loop #: 292 of 800
+LCS with strings of length i= 292 is: 185
+Iterative Test. Loop #: 293 of 800
+LCS with strings of length i= 293 is: 185
+Iterative Test. Loop #: 294 of 800
+LCS with strings of length i= 294 is: 186
+Iterative Test. Loop #: 295 of 800
+LCS with strings of length i= 295 is: 186
+Iterative Test. Loop #: 296 of 800
+LCS with strings of length i= 296 is: 187
+Iterative Test. Loop #: 297 of 800
+LCS with strings of length i= 297 is: 187
+Iterative Test. Loop #: 298 of 800
+LCS with strings of length i= 298 is: 188
+Iterative Test. Loop #: 299 of 800
+LCS with strings of length i= 299 is: 188
+Iterative Test. Loop #: 300 of 800
+LCS with strings of length i= 300 is: 188
+Iterative Test. Loop #: 301 of 800
+LCS with strings of length i= 301 is: 189
+Iterative Test. Loop #: 302 of 800
+LCS with strings of length i= 302 is: 190
+Iterative Test. Loop #: 303 of 800
+LCS with strings of length i= 303 is: 191
+Iterative Test. Loop #: 304 of 800
+LCS with strings of length i= 304 is: 191
+Iterative Test. Loop #: 305 of 800
+LCS with strings of length i= 305 is: 192
+Iterative Test. Loop #: 306 of 800
+LCS with strings of length i= 306 is: 193
+Iterative Test. Loop #: 307 of 800
+LCS with strings of length i= 307 is: 193
+Iterative Test. Loop #: 308 of 800
+LCS with strings of length i= 308 is: 194
+Iterative Test. Loop #: 309 of 800
+LCS with strings of length i= 309 is: 194
+Iterative Test. Loop #: 310 of 800
+LCS with strings of length i= 310 is: 194
+Iterative Test. Loop #: 311 of 800
+LCS with strings of length i= 311 is: 195
+Iterative Test. Loop #: 312 of 800
+LCS with strings of length i= 312 is: 196
+Iterative Test. Loop #: 313 of 800
+LCS with strings of length i= 313 is: 197
+Iterative Test. Loop #: 314 of 800
+LCS with strings of length i= 314 is: 198
+Iterative Test. Loop #: 315 of 800
+LCS with strings of length i= 315 is: 198
+Iterative Test. Loop #: 316 of 800
+LCS with strings of length i= 316 is: 199
+Iterative Test. Loop #: 317 of 800
+LCS with strings of length i= 317 is: 199
+Iterative Test. Loop #: 318 of 800
+LCS with strings of length i= 318 is: 199
+Iterative Test. Loop #: 319 of 800
+LCS with strings of length i= 319 is: 199
+Iterative Test. Loop #: 320 of 800
+LCS with strings of length i= 320 is: 200
+Iterative Test. Loop #: 321 of 800
+LCS with strings of length i= 321 is: 201
+Iterative Test. Loop #: 322 of 800
+LCS with strings of length i= 322 is: 202
+Iterative Test. Loop #: 323 of 800
+LCS with strings of length i= 323 is: 202
+Iterative Test. Loop #: 324 of 800
+LCS with strings of length i= 324 is: 202
+Iterative Test. Loop #: 325 of 800
+LCS with strings of length i= 325 is: 203
+Iterative Test. Loop #: 326 of 800
+LCS with strings of length i= 326 is: 203
+Iterative Test. Loop #: 327 of 800
+LCS with strings of length i= 327 is: 204
+Iterative Test. Loop #: 328 of 800
+LCS with strings of length i= 328 is: 205
+Iterative Test. Loop #: 329 of 800
+LCS with strings of length i= 329 is: 205
+Iterative Test. Loop #: 330 of 800
+LCS with strings of length i= 330 is: 206
+Iterative Test. Loop #: 331 of 800
+LCS with strings of length i= 331 is: 206
+Iterative Test. Loop #: 332 of 800
+LCS with strings of length i= 332 is: 207
+Iterative Test. Loop #: 333 of 800
+LCS with strings of length i= 333 is: 208
+Iterative Test. Loop #: 334 of 800
+LCS with strings of length i= 334 is: 208
+Iterative Test. Loop #: 335 of 800
+LCS with strings of length i= 335 is: 209
+Iterative Test. Loop #: 336 of 800
+LCS with strings of length i= 336 is: 210
+Iterative Test. Loop #: 337 of 800
+LCS with strings of length i= 337 is: 211
+Iterative Test. Loop #: 338 of 800
+LCS with strings of length i= 338 is: 212
+Iterative Test. Loop #: 339 of 800
+LCS with strings of length i= 339 is: 212
+Iterative Test. Loop #: 340 of 800
+LCS with strings of length i= 340 is: 212
+Iterative Test. Loop #: 341 of 800
+LCS with strings of length i= 341 is: 213
+Iterative Test. Loop #: 342 of 800
+LCS with strings of length i= 342 is: 214
+Iterative Test. Loop #: 343 of 800
+LCS with strings of length i= 343 is: 214
+Iterative Test. Loop #: 344 of 800
+LCS with strings of length i= 344 is: 214
+Iterative Test. Loop #: 345 of 800
+LCS with strings of length i= 345 is: 214
+Iterative Test. Loop #: 346 of 800
+LCS with strings of length i= 346 is: 215
+Iterative Test. Loop #: 347 of 800
+LCS with strings of length i= 347 is: 215
+Iterative Test. Loop #: 348 of 800
+LCS with strings of length i= 348 is: 216
+Iterative Test. Loop #: 349 of 800
+LCS with strings of length i= 349 is: 217
+Iterative Test. Loop #: 350 of 800
+LCS with strings of length i= 350 is: 218
+Iterative Test. Loop #: 351 of 800
+LCS with strings of length i= 351 is: 219
+Iterative Test. Loop #: 352 of 800
+LCS with strings of length i= 352 is: 220
+Iterative Test. Loop #: 353 of 800
+LCS with strings of length i= 353 is: 221
+Iterative Test. Loop #: 354 of 800
+LCS with strings of length i= 354 is: 222
+Iterative Test. Loop #: 355 of 800
+LCS with strings of length i= 355 is: 223
+Iterative Test. Loop #: 356 of 800
+LCS with strings of length i= 356 is: 224
+Iterative Test. Loop #: 357 of 800
+LCS with strings of length i= 357 is: 225
+Iterative Test. Loop #: 358 of 800
+LCS with strings of length i= 358 is: 225
+Iterative Test. Loop #: 359 of 800
+LCS with strings of length i= 359 is: 226
+Iterative Test. Loop #: 360 of 800
+LCS with strings of length i= 360 is: 226
+Iterative Test. Loop #: 361 of 800
+LCS with strings of length i= 361 is: 227
+Iterative Test. Loop #: 362 of 800
+LCS with strings of length i= 362 is: 228
+Iterative Test. Loop #: 363 of 800
+LCS with strings of length i= 363 is: 229
+Iterative Test. Loop #: 364 of 800
+LCS with strings of length i= 364 is: 229
+Iterative Test. Loop #: 365 of 800
+LCS with strings of length i= 365 is: 230
+Iterative Test. Loop #: 366 of 800
+LCS with strings of length i= 366 is: 231
+Iterative Test. Loop #: 367 of 800
+LCS with strings of length i= 367 is: 232
+Iterative Test. Loop #: 368 of 800
+LCS with strings of length i= 368 is: 233
+Iterative Test. Loop #: 369 of 800
+LCS with strings of length i= 369 is: 233
+Iterative Test. Loop #: 370 of 800
+LCS with strings of length i= 370 is: 234
+Iterative Test. Loop #: 371 of 800
+LCS with strings of length i= 371 is: 234
+Iterative Test. Loop #: 372 of 800
+LCS with strings of length i= 372 is: 234
+Iterative Test. Loop #: 373 of 800
+LCS with strings of length i= 373 is: 235
+Iterative Test. Loop #: 374 of 800
+LCS with strings of length i= 374 is: 236
+Iterative Test. Loop #: 375 of 800
+LCS with strings of length i= 375 is: 237
+Iterative Test. Loop #: 376 of 800
+LCS with strings of length i= 376 is: 238
+Iterative Test. Loop #: 377 of 800
+LCS with strings of length i= 377 is: 238
+Iterative Test. Loop #: 378 of 800
+LCS with strings of length i= 378 is: 238
+Iterative Test. Loop #: 379 of 800
+LCS with strings of length i= 379 is: 238
+Iterative Test. Loop #: 380 of 800
+LCS with strings of length i= 380 is: 239
+Iterative Test. Loop #: 381 of 800
+LCS with strings of length i= 381 is: 240
+Iterative Test. Loop #: 382 of 800
+LCS with strings of length i= 382 is: 241
+Iterative Test. Loop #: 383 of 800
+LCS with strings of length i= 383 is: 242
+Iterative Test. Loop #: 384 of 800
+LCS with strings of length i= 384 is: 242
+Iterative Test. Loop #: 385 of 800
+LCS with strings of length i= 385 is: 243
+Iterative Test. Loop #: 386 of 800
+LCS with strings of length i= 386 is: 244
+Iterative Test. Loop #: 387 of 800
+LCS with strings of length i= 387 is: 245
+Iterative Test. Loop #: 388 of 800
+LCS with strings of length i= 388 is: 245
+Iterative Test. Loop #: 389 of 800
+LCS with strings of length i= 389 is: 245
+Iterative Test. Loop #: 390 of 800
+LCS with strings of length i= 390 is: 246
+Iterative Test. Loop #: 391 of 800
+LCS with strings of length i= 391 is: 247
+Iterative Test. Loop #: 392 of 800
+LCS with strings of length i= 392 is: 248
+Iterative Test. Loop #: 393 of 800
+LCS with strings of length i= 393 is: 248
+Iterative Test. Loop #: 394 of 800
+LCS with strings of length i= 394 is: 249
+Iterative Test. Loop #: 395 of 800
+LCS with strings of length i= 395 is: 249
+Iterative Test. Loop #: 396 of 800
+LCS with strings of length i= 396 is: 250
+Iterative Test. Loop #: 397 of 800
+LCS with strings of length i= 397 is: 251
+Iterative Test. Loop #: 398 of 800
+LCS with strings of length i= 398 is: 252
+Iterative Test. Loop #: 399 of 800
+LCS with strings of length i= 399 is: 252
+Iterative Test. Loop #: 400 of 800
+LCS with strings of length i= 400 is: 253
+Iterative Test. Loop #: 401 of 800
+LCS with strings of length i= 401 is: 254
+Iterative Test. Loop #: 402 of 800
+LCS with strings of length i= 402 is: 254
+Iterative Test. Loop #: 403 of 800
+LCS with strings of length i= 403 is: 255
+Iterative Test. Loop #: 404 of 800
+LCS with strings of length i= 404 is: 255
+Iterative Test. Loop #: 405 of 800
+LCS with strings of length i= 405 is: 256
+Iterative Test. Loop #: 406 of 800
+LCS with strings of length i= 406 is: 256
+Iterative Test. Loop #: 407 of 800
+LCS with strings of length i= 407 is: 256
+Iterative Test. Loop #: 408 of 800
+LCS with strings of length i= 408 is: 257
+Iterative Test. Loop #: 409 of 800
+LCS with strings of length i= 409 is: 258
+Iterative Test. Loop #: 410 of 800
+LCS with strings of length i= 410 is: 258
+Iterative Test. Loop #: 411 of 800
+LCS with strings of length i= 411 is: 259
+Iterative Test. Loop #: 412 of 800
+LCS with strings of length i= 412 is: 259
+Iterative Test. Loop #: 413 of 800
+LCS with strings of length i= 413 is: 260
+Iterative Test. Loop #: 414 of 800
+LCS with strings of length i= 414 is: 260
+Iterative Test. Loop #: 415 of 800
+LCS with strings of length i= 415 is: 261
+Iterative Test. Loop #: 416 of 800
+LCS with strings of length i= 416 is: 262
+Iterative Test. Loop #: 417 of 800
+LCS with strings of length i= 417 is: 263
+Iterative Test. Loop #: 418 of 800
+LCS with strings of length i= 418 is: 264
+Iterative Test. Loop #: 419 of 800
+LCS with strings of length i= 419 is: 265
+Iterative Test. Loop #: 420 of 800
+LCS with strings of length i= 420 is: 265
+Iterative Test. Loop #: 421 of 800
+LCS with strings of length i= 421 is: 265
+Iterative Test. Loop #: 422 of 800
+LCS with strings of length i= 422 is: 266
+Iterative Test. Loop #: 423 of 800
+LCS with strings of length i= 423 is: 267
+Iterative Test. Loop #: 424 of 800
+LCS with strings of length i= 424 is: 267
+Iterative Test. Loop #: 425 of 800
+LCS with strings of length i= 425 is: 268
+Iterative Test. Loop #: 426 of 800
+LCS with strings of length i= 426 is: 268
+Iterative Test. Loop #: 427 of 800
+LCS with strings of length i= 427 is: 269
+Iterative Test. Loop #: 428 of 800
+LCS with strings of length i= 428 is: 270
+Iterative Test. Loop #: 429 of 800
+LCS with strings of length i= 429 is: 271
+Iterative Test. Loop #: 430 of 800
+LCS with strings of length i= 430 is: 272
+Iterative Test. Loop #: 431 of 800
+LCS with strings of length i= 431 is: 273
+Iterative Test. Loop #: 432 of 800
+LCS with strings of length i= 432 is: 274
+Iterative Test. Loop #: 433 of 800
+LCS with strings of length i= 433 is: 275
+Iterative Test. Loop #: 434 of 800
+LCS with strings of length i= 434 is: 275
+Iterative Test. Loop #: 435 of 800
+LCS with strings of length i= 435 is: 275
+Iterative Test. Loop #: 436 of 800
+LCS with strings of length i= 436 is: 276
+Iterative Test. Loop #: 437 of 800
+LCS with strings of length i= 437 is: 277
+Iterative Test. Loop #: 438 of 800
+LCS with strings of length i= 438 is: 278
+Iterative Test. Loop #: 439 of 800
+LCS with strings of length i= 439 is: 279
+Iterative Test. Loop #: 440 of 800
+LCS with strings of length i= 440 is: 279
+Iterative Test. Loop #: 441 of 800
+LCS with strings of length i= 441 is: 279
+Iterative Test. Loop #: 442 of 800
+LCS with strings of length i= 442 is: 279
+Iterative Test. Loop #: 443 of 800
+LCS with strings of length i= 443 is: 280
+Iterative Test. Loop #: 444 of 800
+LCS with strings of length i= 444 is: 281
+Iterative Test. Loop #: 445 of 800
+LCS with strings of length i= 445 is: 281
+Iterative Test. Loop #: 446 of 800
+LCS with strings of length i= 446 is: 282
+Iterative Test. Loop #: 447 of 800
+LCS with strings of length i= 447 is: 282
+Iterative Test. Loop #: 448 of 800
+LCS with strings of length i= 448 is: 283
+Iterative Test. Loop #: 449 of 800
+LCS with strings of length i= 449 is: 284
+Iterative Test. Loop #: 450 of 800
+LCS with strings of length i= 450 is: 285
+Iterative Test. Loop #: 451 of 800
+LCS with strings of length i= 451 is: 286
+Iterative Test. Loop #: 452 of 800
+LCS with strings of length i= 452 is: 287
+Iterative Test. Loop #: 453 of 800
+LCS with strings of length i= 453 is: 288
+Iterative Test. Loop #: 454 of 800
+LCS with strings of length i= 454 is: 289
+Iterative Test. Loop #: 455 of 800
+LCS with strings of length i= 455 is: 289
+Iterative Test. Loop #: 456 of 800
+LCS with strings of length i= 456 is: 289
+Iterative Test. Loop #: 457 of 800
+LCS with strings of length i= 457 is: 289
+Iterative Test. Loop #: 458 of 800
+LCS with strings of length i= 458 is: 290
+Iterative Test. Loop #: 459 of 800
+LCS with strings of length i= 459 is: 290
+Iterative Test. Loop #: 460 of 800
+LCS with strings of length i= 460 is: 290
+Iterative Test. Loop #: 461 of 800
+LCS with strings of length i= 461 is: 291
+Iterative Test. Loop #: 462 of 800
+LCS with strings of length i= 462 is: 292
+Iterative Test. Loop #: 463 of 800
+LCS with strings of length i= 463 is: 292
+Iterative Test. Loop #: 464 of 800
+LCS with strings of length i= 464 is: 293
+Iterative Test. Loop #: 465 of 800
+LCS with strings of length i= 465 is: 294
+Iterative Test. Loop #: 466 of 800
+LCS with strings of length i= 466 is: 295
+Iterative Test. Loop #: 467 of 800
+LCS with strings of length i= 467 is: 296
+Iterative Test. Loop #: 468 of 800
+LCS with strings of length i= 468 is: 296
+Iterative Test. Loop #: 469 of 800
+LCS with strings of length i= 469 is: 297
+Iterative Test. Loop #: 470 of 800
+LCS with strings of length i= 470 is: 298
+Iterative Test. Loop #: 471 of 800
+LCS with strings of length i= 471 is: 298
+Iterative Test. Loop #: 472 of 800
+LCS with strings of length i= 472 is: 299
+Iterative Test. Loop #: 473 of 800
+LCS with strings of length i= 473 is: 299
+Iterative Test. Loop #: 474 of 800
+LCS with strings of length i= 474 is: 299
+Iterative Test. Loop #: 475 of 800
+LCS with strings of length i= 475 is: 299
+Iterative Test. Loop #: 476 of 800
+LCS with strings of length i= 476 is: 300
+Iterative Test. Loop #: 477 of 800
+LCS with strings of length i= 477 is: 301
+Iterative Test. Loop #: 478 of 800
+LCS with strings of length i= 478 is: 301
+Iterative Test. Loop #: 479 of 800
+LCS with strings of length i= 479 is: 302
+Iterative Test. Loop #: 480 of 800
+LCS with strings of length i= 480 is: 303
+Iterative Test. Loop #: 481 of 800
+LCS with strings of length i= 481 is: 304
+Iterative Test. Loop #: 482 of 800
+LCS with strings of length i= 482 is: 305
+Iterative Test. Loop #: 483 of 800
+LCS with strings of length i= 483 is: 305
+Iterative Test. Loop #: 484 of 800
+LCS with strings of length i= 484 is: 306
+Iterative Test. Loop #: 485 of 800
+LCS with strings of length i= 485 is: 307
+Iterative Test. Loop #: 486 of 800
+LCS with strings of length i= 486 is: 307
+Iterative Test. Loop #: 487 of 800
+LCS with strings of length i= 487 is: 308
+Iterative Test. Loop #: 488 of 800
+LCS with strings of length i= 488 is: 309
+Iterative Test. Loop #: 489 of 800
+LCS with strings of length i= 489 is: 310
+Iterative Test. Loop #: 490 of 800
+LCS with strings of length i= 490 is: 310
+Iterative Test. Loop #: 491 of 800
+LCS with strings of length i= 491 is: 311
+Iterative Test. Loop #: 492 of 800
+LCS with strings of length i= 492 is: 312
+Iterative Test. Loop #: 493 of 800
+LCS with strings of length i= 493 is: 313
+Iterative Test. Loop #: 494 of 800
+LCS with strings of length i= 494 is: 314
+Iterative Test. Loop #: 495 of 800
+LCS with strings of length i= 495 is: 314
+Iterative Test. Loop #: 496 of 800
+LCS with strings of length i= 496 is: 315
+Iterative Test. Loop #: 497 of 800
+LCS with strings of length i= 497 is: 315
+Iterative Test. Loop #: 498 of 800
+LCS with strings of length i= 498 is: 315
+Iterative Test. Loop #: 499 of 800
+LCS with strings of length i= 499 is: 315
+Iterative Test. Loop #: 500 of 800
+LCS with strings of length i= 500 is: 316
+Iterative Test. Loop #: 501 of 800
+LCS with strings of length i= 501 is: 317
+Iterative Test. Loop #: 502 of 800
+LCS with strings of length i= 502 is: 317
+Iterative Test. Loop #: 503 of 800
+LCS with strings of length i= 503 is: 318
+Iterative Test. Loop #: 504 of 800
+LCS with strings of length i= 504 is: 319
+Iterative Test. Loop #: 505 of 800
+LCS with strings of length i= 505 is: 320
+Iterative Test. Loop #: 506 of 800
+LCS with strings of length i= 506 is: 321
+Iterative Test. Loop #: 507 of 800
+LCS with strings of length i= 507 is: 322
+Iterative Test. Loop #: 508 of 800
+LCS with strings of length i= 508 is: 323
+Iterative Test. Loop #: 509 of 800
+LCS with strings of length i= 509 is: 323
+Iterative Test. Loop #: 510 of 800
+LCS with strings of length i= 510 is: 324
+Iterative Test. Loop #: 511 of 800
+LCS with strings of length i= 511 is: 325
+Iterative Test. Loop #: 512 of 800
+LCS with strings of length i= 512 is: 326
+Iterative Test. Loop #: 513 of 800
+LCS with strings of length i= 513 is: 326
+Iterative Test. Loop #: 514 of 800
+LCS with strings of length i= 514 is: 326
+Iterative Test. Loop #: 515 of 800
+LCS with strings of length i= 515 is: 327
+Iterative Test. Loop #: 516 of 800
+LCS with strings of length i= 516 is: 328
+Iterative Test. Loop #: 517 of 800
+LCS with strings of length i= 517 is: 329
+Iterative Test. Loop #: 518 of 800
+LCS with strings of length i= 518 is: 329
+Iterative Test. Loop #: 519 of 800
+LCS with strings of length i= 519 is: 329
+Iterative Test. Loop #: 520 of 800
+LCS with strings of length i= 520 is: 330
+Iterative Test. Loop #: 521 of 800
+LCS with strings of length i= 521 is: 331
+Iterative Test. Loop #: 522 of 800
+LCS with strings of length i= 522 is: 332
+Iterative Test. Loop #: 523 of 800
+LCS with strings of length i= 523 is: 333
+Iterative Test. Loop #: 524 of 800
+LCS with strings of length i= 524 is: 333
+Iterative Test. Loop #: 525 of 800
+LCS with strings of length i= 525 is: 334
+Iterative Test. Loop #: 526 of 800
+LCS with strings of length i= 526 is: 335
+Iterative Test. Loop #: 527 of 800
+LCS with strings of length i= 527 is: 336
+Iterative Test. Loop #: 528 of 800
+LCS with strings of length i= 528 is: 336
+Iterative Test. Loop #: 529 of 800
+LCS with strings of length i= 529 is: 337
+Iterative Test. Loop #: 530 of 800
+LCS with strings of length i= 530 is: 337
+Iterative Test. Loop #: 531 of 800
+LCS with strings of length i= 531 is: 338
+Iterative Test. Loop #: 532 of 800
+LCS with strings of length i= 532 is: 339
+Iterative Test. Loop #: 533 of 800
+LCS with strings of length i= 533 is: 340
+Iterative Test. Loop #: 534 of 800
+LCS with strings of length i= 534 is: 341
+Iterative Test. Loop #: 535 of 800
+LCS with strings of length i= 535 is: 342
+Iterative Test. Loop #: 536 of 800
+LCS with strings of length i= 536 is: 343
+Iterative Test. Loop #: 537 of 800
+LCS with strings of length i= 537 is: 343
+Iterative Test. Loop #: 538 of 800
+LCS with strings of length i= 538 is: 344
+Iterative Test. Loop #: 539 of 800
+LCS with strings of length i= 539 is: 345
+Iterative Test. Loop #: 540 of 800
+LCS with strings of length i= 540 is: 345
+Iterative Test. Loop #: 541 of 800
+LCS with strings of length i= 541 is: 345
+Iterative Test. Loop #: 542 of 800
+LCS with strings of length i= 542 is: 346
+Iterative Test. Loop #: 543 of 800
+LCS with strings of length i= 543 is: 347
+Iterative Test. Loop #: 544 of 800
+LCS with strings of length i= 544 is: 347
+Iterative Test. Loop #: 545 of 800
+LCS with strings of length i= 545 is: 347
+Iterative Test. Loop #: 546 of 800
+LCS with strings of length i= 546 is: 348
+Iterative Test. Loop #: 547 of 800
+LCS with strings of length i= 547 is: 349
+Iterative Test. Loop #: 548 of 800
+LCS with strings of length i= 548 is: 350
+Iterative Test. Loop #: 549 of 800
+LCS with strings of length i= 549 is: 350
+Iterative Test. Loop #: 550 of 800
+LCS with strings of length i= 550 is: 351
+Iterative Test. Loop #: 551 of 800
+LCS with strings of length i= 551 is: 351
+Iterative Test. Loop #: 552 of 800
+LCS with strings of length i= 552 is: 352
+Iterative Test. Loop #: 553 of 800
+LCS with strings of length i= 553 is: 353
+Iterative Test. Loop #: 554 of 800
+LCS with strings of length i= 554 is: 354
+Iterative Test. Loop #: 555 of 800
+LCS with strings of length i= 555 is: 355
+Iterative Test. Loop #: 556 of 800
+LCS with strings of length i= 556 is: 355
+Iterative Test. Loop #: 557 of 800
+LCS with strings of length i= 557 is: 356
+Iterative Test. Loop #: 558 of 800
+LCS with strings of length i= 558 is: 356
+Iterative Test. Loop #: 559 of 800
+LCS with strings of length i= 559 is: 356
+Iterative Test. Loop #: 560 of 800
+LCS with strings of length i= 560 is: 357
+Iterative Test. Loop #: 561 of 800
+LCS with strings of length i= 561 is: 358
+Iterative Test. Loop #: 562 of 800
+LCS with strings of length i= 562 is: 358
+Iterative Test. Loop #: 563 of 800
+LCS with strings of length i= 563 is: 359
+Iterative Test. Loop #: 564 of 800
+LCS with strings of length i= 564 is: 360
+Iterative Test. Loop #: 565 of 800
+LCS with strings of length i= 565 is: 361
+Iterative Test. Loop #: 566 of 800
+LCS with strings of length i= 566 is: 362
+Iterative Test. Loop #: 567 of 800
+LCS with strings of length i= 567 is: 363
+Iterative Test. Loop #: 568 of 800
+LCS with strings of length i= 568 is: 364
+Iterative Test. Loop #: 569 of 800
+LCS with strings of length i= 569 is: 364
+Iterative Test. Loop #: 570 of 800
+LCS with strings of length i= 570 is: 365
+Iterative Test. Loop #: 571 of 800
+LCS with strings of length i= 571 is: 366
+Iterative Test. Loop #: 572 of 800
+LCS with strings of length i= 572 is: 366
+Iterative Test. Loop #: 573 of 800
+LCS with strings of length i= 573 is: 367
+Iterative Test. Loop #: 574 of 800
+LCS with strings of length i= 574 is: 367
+Iterative Test. Loop #: 575 of 800
+LCS with strings of length i= 575 is: 368
+Iterative Test. Loop #: 576 of 800
+LCS with strings of length i= 576 is: 369
+Iterative Test. Loop #: 577 of 800
+LCS with strings of length i= 577 is: 370
+Iterative Test. Loop #: 578 of 800
+LCS with strings of length i= 578 is: 370
+Iterative Test. Loop #: 579 of 800
+LCS with strings of length i= 579 is: 370
+Iterative Test. Loop #: 580 of 800
+LCS with strings of length i= 580 is: 371
+Iterative Test. Loop #: 581 of 800
+LCS with strings of length i= 581 is: 371
+Iterative Test. Loop #: 582 of 800
+LCS with strings of length i= 582 is: 371
+Iterative Test. Loop #: 583 of 800
+LCS with strings of length i= 583 is: 372
+Iterative Test. Loop #: 584 of 800
+LCS with strings of length i= 584 is: 373
+Iterative Test. Loop #: 585 of 800
+LCS with strings of length i= 585 is: 374
+Iterative Test. Loop #: 586 of 800
+LCS with strings of length i= 586 is: 375
+Iterative Test. Loop #: 587 of 800
+LCS with strings of length i= 587 is: 375
+Iterative Test. Loop #: 588 of 800
+LCS with strings of length i= 588 is: 376
+Iterative Test. Loop #: 589 of 800
+LCS with strings of length i= 589 is: 377
+Iterative Test. Loop #: 590 of 800
+LCS with strings of length i= 590 is: 378
+Iterative Test. Loop #: 591 of 800
+LCS with strings of length i= 591 is: 378
+Iterative Test. Loop #: 592 of 800
+LCS with strings of length i= 592 is: 378
+Iterative Test. Loop #: 593 of 800
+LCS with strings of length i= 593 is: 379
+Iterative Test. Loop #: 594 of 800
+LCS with strings of length i= 594 is: 380
+Iterative Test. Loop #: 595 of 800
+LCS with strings of length i= 595 is: 380
+Iterative Test. Loop #: 596 of 800
+LCS with strings of length i= 596 is: 381
+Iterative Test. Loop #: 597 of 800
+LCS with strings of length i= 597 is: 382
+Iterative Test. Loop #: 598 of 800
+LCS with strings of length i= 598 is: 383
+Iterative Test. Loop #: 599 of 800
+LCS with strings of length i= 599 is: 383
+Iterative Test. Loop #: 600 of 800
+LCS with strings of length i= 600 is: 384
+Iterative Test. Loop #: 601 of 800
+LCS with strings of length i= 601 is: 385
+Iterative Test. Loop #: 602 of 800
+LCS with strings of length i= 602 is: 385
+Iterative Test. Loop #: 603 of 800
+LCS with strings of length i= 603 is: 385
+Iterative Test. Loop #: 604 of 800
+LCS with strings of length i= 604 is: 386
+Iterative Test. Loop #: 605 of 800
+LCS with strings of length i= 605 is: 386
+Iterative Test. Loop #: 606 of 800
+LCS with strings of length i= 606 is: 387
+Iterative Test. Loop #: 607 of 800
+LCS with strings of length i= 607 is: 387
+Iterative Test. Loop #: 608 of 800
+LCS with strings of length i= 608 is: 388
+Iterative Test. Loop #: 609 of 800
+LCS with strings of length i= 609 is: 389
+Iterative Test. Loop #: 610 of 800
+LCS with strings of length i= 610 is: 390
+Iterative Test. Loop #: 611 of 800
+LCS with strings of length i= 611 is: 390
+Iterative Test. Loop #: 612 of 800
+LCS with strings of length i= 612 is: 391
+Iterative Test. Loop #: 613 of 800
+LCS with strings of length i= 613 is: 391
+Iterative Test. Loop #: 614 of 800
+LCS with strings of length i= 614 is: 392
+Iterative Test. Loop #: 615 of 800
+LCS with strings of length i= 615 is: 393
+Iterative Test. Loop #: 616 of 800
+LCS with strings of length i= 616 is: 394
+Iterative Test. Loop #: 617 of 800
+LCS with strings of length i= 617 is: 395
+Iterative Test. Loop #: 618 of 800
+LCS with strings of length i= 618 is: 395
+Iterative Test. Loop #: 619 of 800
+LCS with strings of length i= 619 is: 395
+Iterative Test. Loop #: 620 of 800
+LCS with strings of length i= 620 is: 396
+Iterative Test. Loop #: 621 of 800
+LCS with strings of length i= 621 is: 397
+Iterative Test. Loop #: 622 of 800
+LCS with strings of length i= 622 is: 397
+Iterative Test. Loop #: 623 of 800
+LCS with strings of length i= 623 is: 398
+Iterative Test. Loop #: 624 of 800
+LCS with strings of length i= 624 is: 398
+Iterative Test. Loop #: 625 of 800
+LCS with strings of length i= 625 is: 399
+Iterative Test. Loop #: 626 of 800
+LCS with strings of length i= 626 is: 400
+Iterative Test. Loop #: 627 of 800
+LCS with strings of length i= 627 is: 401
+Iterative Test. Loop #: 628 of 800
+LCS with strings of length i= 628 is: 401
+Iterative Test. Loop #: 629 of 800
+LCS with strings of length i= 629 is: 401
+Iterative Test. Loop #: 630 of 800
+LCS with strings of length i= 630 is: 401
+Iterative Test. Loop #: 631 of 800
+LCS with strings of length i= 631 is: 402
+Iterative Test. Loop #: 632 of 800
+LCS with strings of length i= 632 is: 402
+Iterative Test. Loop #: 633 of 800
+LCS with strings of length i= 633 is: 403
+Iterative Test. Loop #: 634 of 800
+LCS with strings of length i= 634 is: 403
+Iterative Test. Loop #: 635 of 800
+LCS with strings of length i= 635 is: 404
+Iterative Test. Loop #: 636 of 800
+LCS with strings of length i= 636 is: 404
+Iterative Test. Loop #: 637 of 800
+LCS with strings of length i= 637 is: 405
+Iterative Test. Loop #: 638 of 800
+LCS with strings of length i= 638 is: 406
+Iterative Test. Loop #: 639 of 800
+LCS with strings of length i= 639 is: 406
+Iterative Test. Loop #: 640 of 800
+LCS with strings of length i= 640 is: 407
+Iterative Test. Loop #: 641 of 800
+LCS with strings of length i= 641 is: 408
+Iterative Test. Loop #: 642 of 800
+LCS with strings of length i= 642 is: 408
+Iterative Test. Loop #: 643 of 800
+LCS with strings of length i= 643 is: 409
+Iterative Test. Loop #: 644 of 800
+LCS with strings of length i= 644 is: 410
+Iterative Test. Loop #: 645 of 800
+LCS with strings of length i= 645 is: 411
+Iterative Test. Loop #: 646 of 800
+LCS with strings of length i= 646 is: 411
+Iterative Test. Loop #: 647 of 800
+LCS with strings of length i= 647 is: 412
+Iterative Test. Loop #: 648 of 800
+LCS with strings of length i= 648 is: 412
+Iterative Test. Loop #: 649 of 800
+LCS with strings of length i= 649 is: 413
+Iterative Test. Loop #: 650 of 800
+LCS with strings of length i= 650 is: 413
+Iterative Test. Loop #: 651 of 800
+LCS with strings of length i= 651 is: 414
+Iterative Test. Loop #: 652 of 800
+LCS with strings of length i= 652 is: 415
+Iterative Test. Loop #: 653 of 800
+LCS with strings of length i= 653 is: 416
+Iterative Test. Loop #: 654 of 800
+LCS with strings of length i= 654 is: 417
+Iterative Test. Loop #: 655 of 800
+LCS with strings of length i= 655 is: 417
+Iterative Test. Loop #: 656 of 800
+LCS with strings of length i= 656 is: 418
+Iterative Test. Loop #: 657 of 800
+LCS with strings of length i= 657 is: 419
+Iterative Test. Loop #: 658 of 800
+LCS with strings of length i= 658 is: 420
+Iterative Test. Loop #: 659 of 800
+LCS with strings of length i= 659 is: 421
+Iterative Test. Loop #: 660 of 800
+LCS with strings of length i= 660 is: 421
+Iterative Test. Loop #: 661 of 800
+LCS with strings of length i= 661 is: 421
+Iterative Test. Loop #: 662 of 800
+LCS with strings of length i= 662 is: 421
+Iterative Test. Loop #: 663 of 800
+LCS with strings of length i= 663 is: 421
+Iterative Test. Loop #: 664 of 800
+LCS with strings of length i= 664 is: 422
+Iterative Test. Loop #: 665 of 800
+LCS with strings of length i= 665 is: 423
+Iterative Test. Loop #: 666 of 800
+LCS with strings of length i= 666 is: 424
+Iterative Test. Loop #: 667 of 800
+LCS with strings of length i= 667 is: 424
+Iterative Test. Loop #: 668 of 800
+LCS with strings of length i= 668 is: 425
+Iterative Test. Loop #: 669 of 800
+LCS with strings of length i= 669 is: 426
+Iterative Test. Loop #: 670 of 800
+LCS with strings of length i= 670 is: 427
+Iterative Test. Loop #: 671 of 800
+LCS with strings of length i= 671 is: 428
+Iterative Test. Loop #: 672 of 800
+LCS with strings of length i= 672 is: 428
+Iterative Test. Loop #: 673 of 800
+LCS with strings of length i= 673 is: 429
+Iterative Test. Loop #: 674 of 800
+LCS with strings of length i= 674 is: 430
+Iterative Test. Loop #: 675 of 800
+LCS with strings of length i= 675 is: 431
+Iterative Test. Loop #: 676 of 800
+LCS with strings of length i= 676 is: 432
+Iterative Test. Loop #: 677 of 800
+LCS with strings of length i= 677 is: 432
+Iterative Test. Loop #: 678 of 800
+LCS with strings of length i= 678 is: 432
+Iterative Test. Loop #: 679 of 800
+LCS with strings of length i= 679 is: 433
+Iterative Test. Loop #: 680 of 800
+LCS with strings of length i= 680 is: 433
+Iterative Test. Loop #: 681 of 800
+LCS with strings of length i= 681 is: 434
+Iterative Test. Loop #: 682 of 800
+LCS with strings of length i= 682 is: 434
+Iterative Test. Loop #: 683 of 800
+LCS with strings of length i= 683 is: 434
+Iterative Test. Loop #: 684 of 800
+LCS with strings of length i= 684 is: 435
+Iterative Test. Loop #: 685 of 800
+LCS with strings of length i= 685 is: 436
+Iterative Test. Loop #: 686 of 800
+LCS with strings of length i= 686 is: 436
+Iterative Test. Loop #: 687 of 800
+LCS with strings of length i= 687 is: 436
+Iterative Test. Loop #: 688 of 800
+LCS with strings of length i= 688 is: 437
+Iterative Test. Loop #: 689 of 800
+LCS with strings of length i= 689 is: 437
+Iterative Test. Loop #: 690 of 800
+LCS with strings of length i= 690 is: 438
+Iterative Test. Loop #: 691 of 800
+LCS with strings of length i= 691 is: 439
+Iterative Test. Loop #: 692 of 800
+LCS with strings of length i= 692 is: 440
+Iterative Test. Loop #: 693 of 800
+LCS with strings of length i= 693 is: 441
+Iterative Test. Loop #: 694 of 800
+LCS with strings of length i= 694 is: 441
+Iterative Test. Loop #: 695 of 800
+LCS with strings of length i= 695 is: 442
+Iterative Test. Loop #: 696 of 800
+LCS with strings of length i= 696 is: 442
+Iterative Test. Loop #: 697 of 800
+LCS with strings of length i= 697 is: 442
+Iterative Test. Loop #: 698 of 800
+LCS with strings of length i= 698 is: 443
+Iterative Test. Loop #: 699 of 800
+LCS with strings of length i= 699 is: 444
+Iterative Test. Loop #: 700 of 800
+LCS with strings of length i= 700 is: 444
+Iterative Test. Loop #: 701 of 800
+LCS with strings of length i= 701 is: 445
+Iterative Test. Loop #: 702 of 800
+LCS with strings of length i= 702 is: 446
+Iterative Test. Loop #: 703 of 800
+LCS with strings of length i= 703 is: 447
+Iterative Test. Loop #: 704 of 800
+LCS with strings of length i= 704 is: 448
+Iterative Test. Loop #: 705 of 800
+LCS with strings of length i= 705 is: 448
+Iterative Test. Loop #: 706 of 800
+LCS with strings of length i= 706 is: 449
+Iterative Test. Loop #: 707 of 800
+LCS with strings of length i= 707 is: 449
+Iterative Test. Loop #: 708 of 800
+LCS with strings of length i= 708 is: 450
+Iterative Test. Loop #: 709 of 800
+LCS with strings of length i= 709 is: 451
+Iterative Test. Loop #: 710 of 800
+LCS with strings of length i= 710 is: 452
+Iterative Test. Loop #: 711 of 800
+LCS with strings of length i= 711 is: 452
+Iterative Test. Loop #: 712 of 800
+LCS with strings of length i= 712 is: 453
+Iterative Test. Loop #: 713 of 800
+LCS with strings of length i= 713 is: 454
+Iterative Test. Loop #: 714 of 800
+LCS with strings of length i= 714 is: 454
+Iterative Test. Loop #: 715 of 800
+LCS with strings of length i= 715 is: 455
+Iterative Test. Loop #: 716 of 800
+LCS with strings of length i= 716 is: 456
+Iterative Test. Loop #: 717 of 800
+LCS with strings of length i= 717 is: 457
+Iterative Test. Loop #: 718 of 800
+LCS with strings of length i= 718 is: 457
+Iterative Test. Loop #: 719 of 800
+LCS with strings of length i= 719 is: 458
+Iterative Test. Loop #: 720 of 800
+LCS with strings of length i= 720 is: 458
+Iterative Test. Loop #: 721 of 800
+LCS with strings of length i= 721 is: 459
+Iterative Test. Loop #: 722 of 800
+LCS with strings of length i= 722 is: 460
+Iterative Test. Loop #: 723 of 800
+LCS with strings of length i= 723 is: 461
+Iterative Test. Loop #: 724 of 800
+LCS with strings of length i= 724 is: 461
+Iterative Test. Loop #: 725 of 800
+LCS with strings of length i= 725 is: 461
+Iterative Test. Loop #: 726 of 800
+LCS with strings of length i= 726 is: 462
+Iterative Test. Loop #: 727 of 800
+LCS with strings of length i= 727 is: 462
+Iterative Test. Loop #: 728 of 800
+LCS with strings of length i= 728 is: 463
+Iterative Test. Loop #: 729 of 800
+LCS with strings of length i= 729 is: 464
+Iterative Test. Loop #: 730 of 800
+LCS with strings of length i= 730 is: 465
+Iterative Test. Loop #: 731 of 800
+LCS with strings of length i= 731 is: 465
+Iterative Test. Loop #: 732 of 800
+LCS with strings of length i= 732 is: 466
+Iterative Test. Loop #: 733 of 800
+LCS with strings of length i= 733 is: 467
+Iterative Test. Loop #: 734 of 800
+LCS with strings of length i= 734 is: 468
+Iterative Test. Loop #: 735 of 800
+LCS with strings of length i= 735 is: 468
+Iterative Test. Loop #: 736 of 800
+LCS with strings of length i= 736 is: 469
+Iterative Test. Loop #: 737 of 800
+LCS with strings of length i= 737 is: 470
+Iterative Test. Loop #: 738 of 800
+LCS with strings of length i= 738 is: 471
+Iterative Test. Loop #: 739 of 800
+LCS with strings of length i= 739 is: 471
+Iterative Test. Loop #: 740 of 800
+LCS with strings of length i= 740 is: 472
+Iterative Test. Loop #: 741 of 800
+LCS with strings of length i= 741 is: 473
+Iterative Test. Loop #: 742 of 800
+LCS with strings of length i= 742 is: 474
+Iterative Test. Loop #: 743 of 800
+LCS with strings of length i= 743 is: 475
+Iterative Test. Loop #: 744 of 800
+LCS with strings of length i= 744 is: 476
+Iterative Test. Loop #: 745 of 800
+LCS with strings of length i= 745 is: 476
+Iterative Test. Loop #: 746 of 800
+LCS with strings of length i= 746 is: 477
+Iterative Test. Loop #: 747 of 800
+LCS with strings of length i= 747 is: 478
+Iterative Test. Loop #: 748 of 800
+LCS with strings of length i= 748 is: 479
+Iterative Test. Loop #: 749 of 800
+LCS with strings of length i= 749 is: 480
+Iterative Test. Loop #: 750 of 800
+LCS with strings of length i= 750 is: 480
+Iterative Test. Loop #: 751 of 800
+LCS with strings of length i= 751 is: 481
+Iterative Test. Loop #: 752 of 800
+LCS with strings of length i= 752 is: 481
+Iterative Test. Loop #: 753 of 800
+LCS with strings of length i= 753 is: 482
+Iterative Test. Loop #: 754 of 800
+LCS with strings of length i= 754 is: 483
+Iterative Test. Loop #: 755 of 800
+LCS with strings of length i= 755 is: 484
+Iterative Test. Loop #: 756 of 800
+LCS with strings of length i= 756 is: 485
+Iterative Test. Loop #: 757 of 800
+LCS with strings of length i= 757 is: 485
+Iterative Test. Loop #: 758 of 800
+LCS with strings of length i= 758 is: 486
+Iterative Test. Loop #: 759 of 800
+LCS with strings of length i= 759 is: 486
+Iterative Test. Loop #: 760 of 800
+LCS with strings of length i= 760 is: 486
+Iterative Test. Loop #: 761 of 800
+LCS with strings of length i= 761 is: 487
+Iterative Test. Loop #: 762 of 800
+LCS with strings of length i= 762 is: 488
+Iterative Test. Loop #: 763 of 800
+LCS with strings of length i= 763 is: 488
+Iterative Test. Loop #: 764 of 800
+LCS with strings of length i= 764 is: 489
+Iterative Test. Loop #: 765 of 800
+LCS with strings of length i= 765 is: 489
+Iterative Test. Loop #: 766 of 800
+LCS with strings of length i= 766 is: 490
+Iterative Test. Loop #: 767 of 800
+LCS with strings of length i= 767 is: 491
+Iterative Test. Loop #: 768 of 800
+LCS with strings of length i= 768 is: 491
+Iterative Test. Loop #: 769 of 800
+LCS with strings of length i= 769 is: 492
+Iterative Test. Loop #: 770 of 800
+LCS with strings of length i= 770 is: 493
+Iterative Test. Loop #: 771 of 800
+LCS with strings of length i= 771 is: 493
+Iterative Test. Loop #: 772 of 800
+LCS with strings of length i= 772 is: 494
+Iterative Test. Loop #: 773 of 800
+LCS with strings of length i= 773 is: 495
+Iterative Test. Loop #: 774 of 800
+LCS with strings of length i= 774 is: 495
+Iterative Test. Loop #: 775 of 800
+LCS with strings of length i= 775 is: 495
+Iterative Test. Loop #: 776 of 800
+LCS with strings of length i= 776 is: 496
+Iterative Test. Loop #: 777 of 800
+LCS with strings of length i= 777 is: 497
+Iterative Test. Loop #: 778 of 800
+LCS with strings of length i= 778 is: 497
+Iterative Test. Loop #: 779 of 800
+LCS with strings of length i= 779 is: 498
+Iterative Test. Loop #: 780 of 800
+LCS with strings of length i= 780 is: 499
+Iterative Test. Loop #: 781 of 800
+LCS with strings of length i= 781 is: 500
+Iterative Test. Loop #: 782 of 800
+LCS with strings of length i= 782 is: 501
+Iterative Test. Loop #: 783 of 800
+LCS with strings of length i= 783 is: 501
+Iterative Test. Loop #: 784 of 800
+LCS with strings of length i= 784 is: 502
+Iterative Test. Loop #: 785 of 800
+LCS with strings of length i= 785 is: 503
+Iterative Test. Loop #: 786 of 800
+LCS with strings of length i= 786 is: 504
+Iterative Test. Loop #: 787 of 800
+LCS with strings of length i= 787 is: 505
+Iterative Test. Loop #: 788 of 800
+LCS with strings of length i= 788 is: 505
+Iterative Test. Loop #: 789 of 800
+LCS with strings of length i= 789 is: 506
+Iterative Test. Loop #: 790 of 800
+LCS with strings of length i= 790 is: 506
+Iterative Test. Loop #: 791 of 800
+LCS with strings of length i= 791 is: 506
+Iterative Test. Loop #: 792 of 800
+LCS with strings of length i= 792 is: 507
+Iterative Test. Loop #: 793 of 800
+LCS with strings of length i= 793 is: 508
+Iterative Test. Loop #: 794 of 800
+LCS with strings of length i= 794 is: 509
+Iterative Test. Loop #: 795 of 800
+LCS with strings of length i= 795 is: 509
+Iterative Test. Loop #: 796 of 800
+LCS with strings of length i= 796 is: 509
+Iterative Test. Loop #: 797 of 800
+LCS with strings of length i= 797 is: 510
+Iterative Test. Loop #: 798 of 800
+LCS with strings of length i= 798 is: 511
+Iterative Test. Loop #: 799 of 800
+LCS with strings of length i= 799 is: 511
+Iterative Test. Loop #: 800 of 800
+LCS with strings of length i= 800 is: 512
+
+
+Recursive Test. Loop #: 1 of 20
+LCS with strings of length j= 1 is: 1
+Recursive Test. Loop #: 2 of 20
+LCS with strings of length j= 2 is: 2
+Recursive Test. Loop #: 3 of 20
+LCS with strings of length j= 3 is: 3
+Recursive Test. Loop #: 4 of 20
+LCS with strings of length j= 4 is: 3
+Recursive Test. Loop #: 5 of 20
+LCS with strings of length j= 5 is: 4
+Recursive Test. Loop #: 6 of 20
+LCS with strings of length j= 6 is: 5
+Recursive Test. Loop #: 7 of 20
+LCS with strings of length j= 7 is: 5
+Recursive Test. Loop #: 8 of 20
+LCS with strings of length j= 8 is: 5
+Recursive Test. Loop #: 9 of 20
+LCS with strings of length j= 9 is: 6
+Recursive Test. Loop #: 10 of 20
+LCS with strings of length j= 10 is: 7
+Recursive Test. Loop #: 11 of 20
+LCS with strings of length j= 11 is: 8
+Recursive Test. Loop #: 12 of 20
+LCS with strings of length j= 12 is: 9
+Recursive Test. Loop #: 13 of 20
+LCS with strings of length j= 13 is: 9
+Recursive Test. Loop #: 14 of 20
+LCS with strings of length j= 14 is: 10
+Recursive Test. Loop #: 15 of 20
+LCS with strings of length j= 15 is: 10
+Recursive Test. Loop #: 16 of 20
+LCS with strings of length j= 16 is: 10
+Recursive Test. Loop #: 17 of 20
+LCS with strings of length j= 17 is: 10
+Recursive Test. Loop #: 18 of 20
+LCS with strings of length j= 18 is: 10
+Recursive Test. Loop #: 19 of 20
+LCS with strings of length j= 19 is: 11
+Recursive Test. Loop #: 20 of 20
+LCS with strings of length j= 20 is: 11
